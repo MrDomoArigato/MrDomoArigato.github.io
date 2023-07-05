@@ -1,0 +1,14 @@
+#Jekyll Files not needed for deployment
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+#Ruby generated file
+Gemfile.lock 
+
+#Custom file for testing locally
+test.markdown 
+
+.DS_Store

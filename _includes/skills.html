@@ -1,0 +1,9 @@
+{% if site.skills %}
+    <div class="wrapper">
+        <div class="bg-4 wrapper1">
+            {% for skill in site.skills %}
+                <h1>{{ skill }}</h1>
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

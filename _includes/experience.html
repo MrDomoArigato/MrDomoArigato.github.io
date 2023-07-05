@@ -1,0 +1,13 @@
+{% if site.education %}
+    <div class="wrapper">
+        <div class="bg-4 wrapper1">
+            {% for job in site.experience %}
+                <h1 class="text-color-3">{{ job.title }}, {{ job.company }}</h1>
+                <h1>{{ job.location }} — {{ job.timeframe }}</h1>
+                {% if job.text %}
+                    <pre style="font-size: x-large;">{{ job.text }}</pre>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

@@ -1,0 +1,143 @@
+body {
+    --color-1: #222831;
+    --color-2: #393E46;
+    --color-3: #00ADB5;
+    --color-4: #eeeeee;
+    --color-5: #cfcfcf;
+    --nav-color: var(--color-5);
+    --nav-active: var(--color-3);
+}
+
+.bg-1 {
+    background-color: var(--color-1);
+}
+
+.bg-2 {
+    background-color: var(--color-2);
+}
+
+.bg-3 {
+    background-color: var(--color-3);
+}
+
+.bg-4 {
+    background-color: var(--color-4);
+}
+
+.text-color-1 {
+    color: var(--color-1)
+}
+
+.text-color-2 {
+    color: var(--color-2)
+}
+
+.text-color-3 {
+    color: var(--color-3)
+}
+
+.text-color-4 {
+    color: var(--color-4)
+}
+
+.text-color-5 {
+    color: var(--color-5)
+}
+
+.content {
+    width: 100%;
+    min-height: 79vh;
+    height: 100%;
+}
+
+.about-content {
+    width: 70vw;
+    height: 65vh;
+    z-index: 1;
+    
+    top: 0px;
+
+    position: absolute;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+
+    padding: 15px 0px;
+}
+
+.wrapper1 {
+    width:75vw;
+    
+    margin-left:12.5vw;
+    
+    padding:25px 100px 25px 25px;
+    
+    position:relative;
+}
+
+.border-pink {
+    border-color: pink;
+}
+
+.border-magenta {
+    border-color: magenta;
+}
+
+.bg-color-10 {
+    background-color: #FAF0E4;
+}
+
+.bg-color-20 {
+    background-color: #9BCDD2;
+}
+
+.bg-color-30 {
+    background-color: #FF8551;
+}
+
+.bg-color-40 {
+    background-color: #FFDEDE;
+}
+
+.bg-color-50 {
+    background-color: white;
+}
+
+a {
+  background-image: linear-gradient(
+    to right,
+    var(--nav-active),
+    var(--nav-active) 50%,
+    var(--nav-color) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+  
+a:before {
+  content: '';
+  background: var(--nav-active);
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+  
+a:hover {
+ background-position: 0;
+}
+  
+a:hover::before {
+  width:100%;
+}

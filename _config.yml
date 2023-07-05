@@ -1,0 +1,155 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Neko Lueke
+
+description: >- # this means to ignore newlines until "baseurl:"
+  CV Portfolio
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+name: Neko Lueke
+jobtitle: Full-Stack Developer
+
+contacts:
+  email: ynlueke@gmail.com
+  phone: "+1 816-825-0352"
+  address: "3600 Broadway Blvd, Kansas City, MO 64111"
+
+  linkedin: "https://linkedin.com"
+  instagram: "https://instagram.com"
+  facebook: "https://instagram.com"
+  twitter: "https://instagram.com"
+
+
+home:
+  photo: mountains.png
+
+  title: Hello
+  subtitle: Secret to Life
+  text: >-
+    Paragraph
+    
+    more Info
+education:
+  - name: University of Missouri-Kansas City
+    location: Kansas City, Missouri
+    degree: Bachelors of Science in Computer Science
+    timeframe: "Spring 2024"
+  - name: Metropolitan Community College-Longview
+    location: Lees Summit, Missouri
+    degree: Associates in Computer Science
+    timeframe: "Spring 2021" 
+experience:
+  - company: JCPenney
+    location: Lenexa, Kansas
+    title: IT Technician
+    timeframe: Present - August, 2021
+    text: >-
+      Paragraph
+
+      Paragraph
+  - company: Code Ninjas
+    location: Leawood, Kansas
+    title: Tutor
+    timeframe: August, 2021 - September, 2019
+    text: >-
+      Paragraph
+
+      Paragraph
+  - company: Cerner
+    location: Kansas City, Missouri
+    title: Technical Intern
+    timeframe: May, 2019 - January, 2018 - 
+    text: >-
+      Paragraph
+
+      Paragraph
+skills:
+  - title: Skillset
+    skill_list:
+    - Skill 1
+    - Skill 2
+    - Skill 3
+    - skill 4
+    - skill 5
+  - title: Languages
+    skill_list:
+    - Skill 1
+    - Skill 2
+    - Skill 3
+    - skill 4
+    - skill 5
+projects:
+  - name: Project 1
+    role: Role
+    text: >-
+      Paragraph
+
+      Paragraph
+  - name: Project 2
+    role: Role
+    text: >-
+      Paragraph
+
+      Paragraph
+  - name: Project 3
+    role: Role
+    text: >-
+      Paragraph
+
+      Paragraph
+    
+
+
+
+exclude:
+ # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# Default build setting; Not needed
+# Build settings
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+# Footer last edited timestamp
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
