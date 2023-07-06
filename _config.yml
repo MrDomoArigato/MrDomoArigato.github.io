@@ -61,27 +61,29 @@ experience:
   - company: JCPenney
     location: Lenexa, Kansas
     title: IT Technician
-    timeframe: Present - August, 2021
-    text: >-
-      Paragraph
-
-      Paragraph
+    timeframe: August, 2021 - Present
+    text:
+      - Demonstrates in depth knowledge of multiples technologies including Microsoft Enterprise, Office 365, and Cisco Meraki
+      - Debugs, fixes, and maintains technical parts of company industrial sorting equipment, including a Dematic Sorting System
+      - Trained in essential infrastructure and networking
   - company: Code Ninjas
     location: Leawood, Kansas
     title: Tutor
-    timeframe: August, 2021 - September, 2019
-    text: >-
-      Paragraph
-
-      Paragraph
+    timeframe: September, 2019 - August, 2021
+    text:
+      - Instructed 7 to 14 year old students to program using different languages and software
+      - Communicated the same concept in different ways to increase retention and recollection
+      - Created hour to week long lesson plans that kept students involved and excited
   - company: Cerner
     location: Kansas City, Missouri
     title: Technical Intern
-    timeframe: May, 2019 - January, 2018 - 
-    text: >-
-      Paragraph
+    timeframe: January, 2018 - May, 2019
+    text:
+      - Worked as a backend programmer, developing Rest-API endpoints for production level environments
+      - Used Jax-RS package in Java for endpoint development
+      - Designed load tests for different endpoints to determine the API’s overall efficiency
+      - Honed my knowledge in web app development and standards
 
-      Paragraph
 skills:
   - title: Skillset
     skill_list:
