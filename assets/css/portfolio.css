@@ -81,18 +81,21 @@ body {
     -webkit-column-count: 2;
        -moz-column-count: 2;
             column-count: 2;
+
+    list-style-type: none;
 }
 
 .column-3 {
-    column-count: 3;
     -webkit-column-count: 3;
-    -moz-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    
+    list-style-type: none;
 }
 
 li {
     display: inline-block;
     width: 100%;
-
 }
 
 .border-pink {
