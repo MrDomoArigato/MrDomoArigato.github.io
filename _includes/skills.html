@@ -1,8 +1,18 @@
+{% unless site.format.skill_list and page.supported_formats contains site.format.skill_list  %}
+    {% assign site.format.skill_list = '2-column' %}
+{% endunless %}
+
+
 {% if site.skills %}
     <div class="wrapper">
         <div class="bg-4 wrapper1">
             {% for skill in site.skills %}
-                <h1>{{ skill }}</h1>
+                <h1>{{ skill.title }}</h1>
+                <ul class="column-2">
+                    {% for item in skill.skill_list %}
+                        <li style="font-size:20px;">item</li>
+                    {% endfor %}
+                </ul>
             {% endfor %}
         </div>
     </div>

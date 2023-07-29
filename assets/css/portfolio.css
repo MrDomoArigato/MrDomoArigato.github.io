@@ -77,6 +77,24 @@ body {
     position:relative;
 }
 
+.column-2 {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+}
+
+.column-3 {
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+}
+
+li {
+    display: inline-block;
+    width: 100%;
+
+}
+
 .border-pink {
     border-color: pink;
 }
@@ -141,3 +159,4 @@ a:hover {
 a:hover::before {
   width:100%;
 }
+

@@ -38,12 +38,14 @@ contacts:
   facebook: "https://instagram.com"
   twitter: "https://instagram.com"
 
+format:
+  skill_list: "column-3"
 
 home:
   photo: mountains.png
 
   title: Hello
-  subtitle: Secret to Life
+  subtitle: 
   text: >-
     Paragraph
     
@@ -87,18 +89,19 @@ experience:
 skills:
   - title: Skillset
     skill_list:
-    - Skill 1
-    - Skill 2
-    - Skill 3
-    - skill 4
-    - skill 5
+    - Detail Oriented
+    - Decisive
+    - Problem Solver
+    - Effecient
+    - Adaptable
   - title: Languages
     skill_list:
-    - Skill 1
-    - Skill 2
-    - Skill 3
-    - skill 4
-    - skill 5
+    - Java
+    - Ruby on Rails
+    - React
+    - HTML
+    - SQL
+    - Javascript
 projects:
   - name: Project 1
     role: Role
