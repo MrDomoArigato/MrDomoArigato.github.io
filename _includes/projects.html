@@ -1,3 +1,19 @@
-{% for skill in site.skills %}
-    <h1>{{ skill }}</h1>
-{% endfor %}
+<div class="wrapper">
+    <div class="p-5 bg-4 wrapper1" style="--nav-color: var(--color-2);--nav-active: var(--color-3);">
+        {% for project in site.projects %}
+            <h1 class="text-color-3">{{ project.name }}</h1>
+            {% if project.role %}
+                <h1 class="text-color-2"><small>Role: {{ project.role }}</small></h1>
+            {% endif %}
+            {% if project.links %}
+                {% for link in project.links %}
+                    {% if link.link %}
+                        <a class="mx-2" href="{{ link.link }}">{{ link.name }}</a>
+                    {% endif %}
+                {% endfor %}
+                <br><br>
+            {% endif %}
+            <p class="text-color-2 text-break">{{ project.text | newline_to_br }}</p>
+        {% endfor %}
+    </div>
+</div>

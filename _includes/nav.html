@@ -1,10 +1,13 @@
-<div class="bg-1" style="height:21vh;font-size:4vw;padding:4vh;">
-    <div class="d-inline-block"><h1 class="display-3 text-color-4"><strong>{{ site.name }}</strong> <small class="text-color-5">/ {{ site.jobtitle }}</small></h1></div>
-    <div class="p-4 align-middle float-end d-inline-block display-6 text-color-5">
-        <a class="link-nav" href="/" data-replace="About Me"><span class="p-2">About Me</span></a>
-        <a class="link-nav" href="/resume" data-replace="Résumé"><span class="p-2">Résumé</span></a>
+<div class="bg-1" style="height:21vh;padding:4vh;">
+    <div class="d-inline-block"><h1 class="display-3 text-color-4" style="font-size: 4vw;"><strong>{{ site.name }}</strong> <small class="text-color-5">/ {{ site.jobtitle }}</small></h1></div>
+    <div class="p-4 align-middle float-end d-inline-block display-6 text-color-5" style="font-size: 2vw;--nav-color: var(--color-5);--nav-active: var(--color-3);">
+        <a class="link-nav" href="/"><span class="p-2">About Me</span></a>
+        <a class="link-nav" href="/resume"><span class="p-2">Résumé</span></a>
         {% if site.contacts %}
-            <a class="link-nav" href="/contact" data-replace="Contact"><span class="p-2">Contact</span></a>
+            <a class="link-nav" href="/contact"><span class="p-2">Contact</span></a>
+        {% endif %}
+        {% if site.projects %}
+            <a class="link-nav" href="/projects"><span class="p-2">Projects</span></a>
         {% endif %}
     </div>
 </div>

@@ -46,23 +46,11 @@ home:
   title: Summary
   # subtitle: Seacret to life
   text: |-2
-      Having worked professinally in several different areas of the 
-    technology industry since 2018, I believe I can easily fill any 
-    position necessary and quickly adapt to any required tasks or 
-    responsibilites.
+    &emsp;Having worked professinally in several different areas of the technology industry since 2018, I believe I can easily fill any position necessary and quickly adapt to any required tasks or responsibilites.
 
-      I am currently looking for a position as a software engineer. 
-    My previous development experience comes mostly from my work as 
-    an intern at Cerner. The majority of my code was written in Java, 
-    under the Jax-RS framework, but I also worked on a few front-end 
-    projects, using React and Ruby on rails.
+    &emsp;I am currently looking for a position as a software engineer. My previous development experience comes mostly from my work as an intern at Cerner. The majority of my code was written in Java, using the Jax-RS framework, but I also worked on a few front-end projects, using React and Ruby on rails.
 
-      I have also made several school and personal projects. My 
-    projects are listed by level of complexity. My largest project 
-    has to be my bookkeeper project with a React UI and a Java API. 
-    The project is secured with a SSO hosted and setup be me. You 
-    can find a network diagram of the project under the project's 
-    Github page.
+    &emsp;I have also made several school and personal projects. My projects are listed by level of complexity. My largest project has to be my bookkeeper project with a React UI and a Dotnet API. The project is secured with a SSO hosted and setup be me. You can find a network diagram of the project under the project's Github page.
 
 education:
   - name: University of Missouri-Kansas City
@@ -80,8 +68,8 @@ experience:
     timeframe: August, 2021 - Present
     text:
       - Demonstrates in depth knowledge of multiples technologies including Microsoft Enterprise, Office 365, and Cisco Meraki
-      - Debugs, fixes, and maintains technical parts of company industrial sorting equipment, including a Dematic Sorting System
-      - Trained in essential infrastructure and networking
+      - Debugs, fixes, and maintains technical parts of company industrial sorting equipment, including multiple SDI & a Dematic Sorting System
+      - Trained in essential infrastructure and networking, including switch installation & RJ-45 terminations
   - company: Code Ninjas
     location: Leawood, Kansas
     title: Tutor
@@ -117,27 +105,41 @@ skills:
     - SQL
     - Javascript
 projects:
-  - name: Project 1
-    role: Role
-    text: >-
-      Paragraph
+  - name: Bookkeeper Application
+    role: Team Lead
+    links:
+    - name: Frontend Github
+      link: https://github.com/MrDomoArigato/Capstone-Frontend
+    - name: Backend Github
+      link: https://github.com/MrDomoArigato/Capstone-Backend
+    - name: Hosted Application
+      link: https://capstone.ynlueke.com
+    text: |-2
+      &emsp;The Application was developed as part of the capstone course for my degree program. Developed by a team of four, this project provides users with a comprehensive tool to manage and track their personal finances. Utilizing modern technologies, the application integrates a responsive React frontend with a robust .NET backend, a PostgreSQL database, and secure OAuth2 login for authentication. This project showcases our ability to work collaboratively on a full-stack web application, integrating multiple technologies to deliver a secure, user-friendly platform for personal budget management.
 
-      Paragraph
-  - name: Project 2
-    role: Role
-    text: >-
-      Paragraph
+      Technology Stack
+      &emsp;- Frontend: React, CSS (Bootstrap), JavaScript
+      &emsp;- Backend: .NET Core (C#)
+      &emsp;- Database: PostgreSQL
+      &emsp;- Authentication: OAuth2
+      &emsp;- Testing Framework: xUnit, React Testing
 
-      Paragraph
-  - name: Project 3
-    role: Role
-    text: >-
-      Paragraph
+      The Projects core requirements were it must 
+      &emsp;- Be a full-stack application (Cannot use CMS, like Wordpress)
+      &emsp;- Include a financial component
+      &emsp;- Have the following pages: Login, Register, Home/Dashboard, User Profile/Settings, Plus 2 Additional Pages
+      &emsp;- Have at least 1 CSS Framework
+      &emsp;- Complete at least 2 stretch goals
 
-      Paragraph
-    
-
-
+      Project Stretch Goals
+      &emsp;- Deploy project to server/cloud instance (Completed)
+      &emsp;- Create Web API layer for backend interactions (Completed)
+      &emsp;- Use open-source reporting tool/business intelligence suite for all the reporting and its data visualization (Patially Completed)
+      &emsp;- Use pull requests/code review approved by a group member (Completed)
+      &emsp;- Sessions for remembering user if they close their browser and login again (Completed)
+      &emsp;- Options for user if they forgot their username or password (Completed)
+      &emsp;- Security scan application & fix critical issues (Not Completed)
+      &emsp;- Do accessibility audit and fix errors (Not Completed)
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:

@@ -4,8 +4,6 @@ body {
     --color-3: #00ADB5;
     --color-4: #eeeeee;
     --color-5: #cfcfcf;
-    --nav-color: var(--color-5);
-    --nav-active: var(--color-3);
 }
 
 .bg-1 {
