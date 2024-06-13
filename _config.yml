@@ -33,6 +33,8 @@ contacts:
   phone: "+1 816-825-0352"
   address: "3600 Broadway Blvd, Kansas City, MO 64111"
 
+  resume: Resume.pdf
+
   linkedin: "https://linkedin.com"
   instagram: "https://instagram.com"
   facebook: "https://instagram.com"
@@ -46,11 +48,11 @@ home:
   title: Summary
   # subtitle: Seacret to life
   text: |-2
-    &emsp;Having worked professinally in several different areas of the technology industry since 2018, I believe I can easily fill any position necessary and quickly adapt to any required tasks or responsibilites.
+    &emsp;Having worked professionally in various areas of the technology industry since 2018, I am confident in my ability to fill any position and quickly adapt to any required tasks or responsibilities.
 
-    &emsp;I am currently looking for a position as a software engineer. My previous development experience comes mostly from my work as an intern at Cerner. The majority of my code was written in Java, using the Jax-RS framework, but I also worked on a few front-end projects, using React and Ruby on rails.
+    &emsp;I am currently seeking a position as a software engineer. My development experience primarily stems from my internship at Cerner, where I wrote most of my code in Java using the Jax-RS framework to build RESTful web services. I also worked on front-end projects utilizing React and Ruby on Rails.
 
-    &emsp;I have also made several school and personal projects. My projects are listed by level of complexity. My largest project has to be my bookkeeper project with a React UI and a Dotnet API. The project is secured with a SSO hosted and setup be me. You can find a network diagram of the project under the project's Github page.
+    &emsp;In addition to my professional experience, I have completed several school and personal projects, which are listed by level of complexity. My largest project is a bookkeeper application featuring a React UI and a .NET API, secured with SSO that I hosted and set up. A network diagram of this project is available on its GitHub page.
 
 education:
   - name: University of Missouri-Kansas City
